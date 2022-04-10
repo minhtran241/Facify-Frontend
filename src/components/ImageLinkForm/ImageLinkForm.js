@@ -23,6 +23,7 @@ const ImageLinkForm = ({ onInputChange, onPictureSubmit, handleKeyDown }) => {
 							className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-70"
 							placeholder="URL"
 							onChange={onInputChange}
+							onKeyDown={handleKeyDown}
 						/>
 					</div>
 					<div>
