@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Facify - AI Face Detector
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Give me the URL of your picture and we can show you the face!
+
+This project is hosted on Heroku.
 
 ## Available Scripts
 
