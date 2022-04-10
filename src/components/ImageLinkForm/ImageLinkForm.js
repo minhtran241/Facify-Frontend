@@ -1,7 +1,7 @@
 import React from "react";
 import "./ImageLinkForm.css";
 
-const ImageLinkForm = ({ onInputChange, onPictureSubmit }) => {
+const ImageLinkForm = ({ onInputChange, onPictureSubmit, handleKeyDown }) => {
 	return (
 		<div>
 			<p className="f3 b">{"Facify - AI Face Detector"}</p>
@@ -29,6 +29,7 @@ const ImageLinkForm = ({ onInputChange, onPictureSubmit }) => {
 						<button
 							className="pa2 input-reset white ba bg-transparent hover-bg-black hover-white w-30"
 							onClick={onPictureSubmit}
+							onKeyDown={handleKeyDown}
 						>
 							Detect
 						</button>

@@ -190,6 +190,12 @@ class App extends Component {
 		this.setState({ route: route });
 	};
 
+	_handleKeyDown = (event) => {
+		if (event.key === "Enter") {
+			this.onPictureSubmit();
+		}
+	};
+
 	render() {
 		return (
 			<div className="App">
@@ -214,6 +220,7 @@ class App extends Component {
 						<ImageLinkForm
 							onInputChange={this.onInputChange}
 							onPictureSubmit={this.onPictureSubmit}
+							handleKeyDown={this._handleKeyDown}
 						/>
 						<FaceRecognition
 							box={this.state.box}
