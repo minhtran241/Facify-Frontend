@@ -1,0 +1,13 @@
+.center2 {
+	display: flex;
+	justify-content: center;
+}
+
+.bounding-box {
+	position: absolute;
+	box-shadow: 0 0 0 3px blue inset;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	cursor: pointer;
+}
